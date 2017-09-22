@@ -1,4 +1,6 @@
-What is You In?
+# Leg 1 Proposal and Requirements
+ 
+## What is You In?
 
 It’s 4:30 pm on a Friday afternoon and you’re about to get off work. You had a 
 tough week and could really use an activity to unwind. Maybe you’d like to 
@@ -20,7 +22,7 @@ reservation, booking an activity, or buying any items that are needed. You In?
 will take the hassle out of coordinating events with friends so that you can 
 focus on having fun.
 
-Who’s going to use it?
+## Who’s going to use it?
 
 The target audience for this application is everyone who organizes events with 
 a friend group. The best place to start this app would be on a college campus 
@@ -28,7 +30,7 @@ but from there it could grow into the young professional community and ultimatel
 to everyone using a mobile phone. Everyone plans informal get togethers, and this 
 app makes that planning process incredibly easy.
 
-Who are the stakeholders?
+## Who are the stakeholders?
 
 Nico Pollack: housemate “I think the idea is great and could potentially be really useful.”
 Brian Powers: housemate “I always have trouble planning thing with groupme so this sounds 
@@ -42,7 +44,7 @@ would really help me when planning activities with friends”
 Drew Abatemarco: housemate: “My family always tries to make plans through group messages and we never 
 end up settling on one thing to do. I think this would make planning family outings so much simpler.” 
 
-What is the Core Functionality
+## What is the Core Functionality
 
 The core functionality of You in? is sending highly customizable events to a group of people. 
 Events will be crowdsourced, and can have an expiration date and time, set by the event creator. 
@@ -51,19 +53,18 @@ In addition to customizable events, users get to create profiles and groups. Som
 functionality can be achieved through leveraging facebook profiles, but other parts will need to 
 be built independently.
 
-What is the Secondary Functionality?
+## What is the Secondary Functionality?
 
 Secondary functionality could include integration with services like OpenTable, which would create 
 dinner reservations for the set number of people attending at restaurants with reservations available. 
 Event or restaurant suggestions would also be beneficial which could be achieved through Yelp integration, 
 or creating an advertising platform where local businesses could post deals in order to try to attract business.
 
-What mobile device features are necessary?
+## What mobile device features are necessary?
 
 Notifications and Location Services.
 
-What are the limitations?
-
+## What are the limitations?
 
 One limitation is the creation of a backend. Neither of us has extensive experience writing server 
 side code. Frank has taken Comp20 and believes that he will be able to create a simple backend that 
