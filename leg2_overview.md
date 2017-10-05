@@ -10,7 +10,7 @@ Leg 2 took about 20 hours to implement.
 
 # Architecture
 
-![Architecture Diagram](diagrams/YouinArchitecture.png?raw=true “Architecture Diagram”)
+![Architecture Diagram](/diagrams/YouinArchitecture.png)
 
 # Mockups
 
