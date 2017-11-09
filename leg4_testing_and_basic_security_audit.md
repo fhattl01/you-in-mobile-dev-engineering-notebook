@@ -21,7 +21,7 @@ We installed crashlytics on our app so that we can monitor crashes using the fab
 Our final method of testing You In? was using Firebase's robo testing suite. This suite does a dynamic analysis of your application using a UI crawler to move the through each of the views in the app. The tests ensure that basic usage of the app will not cause a crash, and even tries certain corner cases such as entering empty text boxes etc. The implementation of this test was somewhat challenging because we had to provied a way for the UI crawler to move past the login page. We ultimately decided to give the crawler an APK that logged in using a fixed set of credentials automatically. This allowed us to test the main components of the UI other than the login flow. Another great feature of Robo Tests is that the application can be tested on multiple devices. We ran tests on 5 devices, all of which passed, which gives us further confidence that our app is functional. Results from one of these tests are provided below.
 
 ### Robo Test on Google Pixel Phone with API 26:
-[Video of the Robo Test](resources/robo-test-video.mp4l)
-[Activity Map](resources/activity-map.pngl)
+[Video of the Robo Test](https://youtu.be/TK-MfSBH-40)
+[Activity Map](resources/activity-map.png)
 
 
