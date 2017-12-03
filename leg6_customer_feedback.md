@@ -1,11 +1,11 @@
-#Leg 6: Customer Feedback 
+# Leg 6: Customer Feedback 
 
-#Lessons Learned
+## Lessons Learned
 By November 30, we have had 4 active installs by user. We have learned that
 we need to fix our Manage Friends Activity because there is an error with a 
 Null Pointer Exception. 
 
-#Feedback 
+## Feedback 
 Out of the 4 active installs, 2 have uninstalled the application. We had 1
 crash in the application from a null pointer exception when a user tried to add
 a new friend. 
