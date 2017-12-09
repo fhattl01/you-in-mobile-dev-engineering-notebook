@@ -1,0 +1,7 @@
+# Google Play Store Update
+
+The key update that we made to You In? was a fix that will prevent the app from crashing when a user searches for a user name that does not map to a user in our database. This bug was easily addressable by checking to see if the user database query returned null. Crashlytics allowed us to quickly identify the line of code on which the app was crashing, and implement the fix quickly so that we could push the patch out to the Google Play Store. In the case that we recieved "null," we decided to just not show any results, which is a satisfactory way to handle this case. This bug affected many users and showed us the importance of testing all cases in our app. We focused our testing mainly on the primary activites such as EventList, and CreateEvent. We managed to omit testing the case of entering a username that did not exist in our SearchFriends Activity, because it was not a priority during testing. This taught us the lesson that even when an activity is not part of the primary app interaction it can still be incredibly important to a user. This was especially true given that our bug occurred at a critical stage of the onboarding process.
+
+Finally, in addition to the update that fixed the crash, we made a few minor tweaks to the UI in hopes of improving the user experience. We recieved some great feedback saying that the text was too small on the app, so we increased text size. We also made some minor improvements to increase the contrast of text in certain buttons.
+
+
